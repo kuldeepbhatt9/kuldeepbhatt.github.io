@@ -15,13 +15,19 @@ links.forEach(link => {
   });
 });
 
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.15
+};
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
     }
   });
-}, { threshold: 0.1 });
+}, observerOptions);
 
 document.querySelectorAll('.fade-up').forEach(el => {
   observer.observe(el);
