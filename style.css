@@ -207,7 +207,7 @@ a {
   height: 100%;
   object-fit: cover;
   transition: transform 0.7s ease, filter 0.7s ease;
-  filter: grayscale(80%);
+  filter: grayscale(10%);
 }
 
 .project-card:hover .project-thumb {
@@ -318,7 +318,7 @@ a {
   min-height: 90vh;
 }
 
-.contact > p:not(.section-label) {
+.contact-desc {
   color: var(--grey);
   max-width: 700px;
   margin-top: 50px;
@@ -332,33 +332,17 @@ a {
   margin-top: 80px;
 }
 
-.contact-method {
+.unified-link {
   display: inline-block;
-  font-size: clamp(30px, 5vw, 70px);
+  font-size: clamp(20px, 3vw, 32px);
   border-bottom: 1px solid var(--line);
   padding-bottom: 10px;
   width: max-content;
   transition: color 0.3s ease;
 }
 
-.contact-method:hover {
+.unified-link:hover {
   color: var(--grey);
-}
-
-.socials {
-  margin-top: 80px;
-}
-
-.socials a {
-  font-size: 14px;
-  letter-spacing: 0.2em;
-  border-bottom: 1px solid transparent;
-  padding-bottom: 5px;
-  transition: border-color 0.3s ease;
-}
-
-.socials a:hover {
-  border-color: var(--white);
 }
 
 .footer-location {
@@ -408,9 +392,9 @@ footer {
     display: none;
   }
   
-  .contact-method {
+  .unified-link {
     width: 100%;
-    font-size: 28px;
+    font-size: 22px;
   }
   
   footer {
