@@ -298,13 +298,13 @@
     </a>
 
     <a
-      class="unified-link"
-      href="https://www.instagram.com/iamkuldeepbhatt?igsh=MWd2dXYyeWtocmxkNw%3D%3D&utm_source=qr"
-      target="_blank"
-      rel="noopener"
-    >
-      INSTAGRAM ↗
-    </a>
+  class="unified-link"
+  href="https://www.instagram.com/iamkuldeepbhatt?igsh=MWd2dXYyeWtocmxkNw%3D%3D&utm_source=qr"
+  target="_blank"
+  rel="noopener"
+>
+  INSTAGRAM ↗
+</a>
   </div>
 
   <p class="footer-location fade-up">
